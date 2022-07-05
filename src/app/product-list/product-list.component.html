@@ -1,5 +1,8 @@
-<h2>テスト</h2>
-
+<div *ngFor="let product of products">
+  <h2>{{ product.name }}</h2>
+  <p>{{ product.price }}</p>
+  <p>{{ product.description }}</p>
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
